@@ -1,0 +1,17 @@
+{
+  "name": "hostfully-cypress-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:headless": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "author": "Joao Lucas Oliveira Hilario",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "github:faker-js/faker",
+    "cypress": "^13.6.4",
+    "typescript": "^5.3.3"
+  }
+}

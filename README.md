@@ -1,7 +1,15 @@
 
 # Hostfully - Cypress Project with TypeScript
 
-This project demonstrates how to set up and run end-to-end tests using Cypress with TypeScript support.
+This project demonstrates how to set up and run end-to-end tests using Cypress with TypeScript support, covering five test cases. I'm covering these ones:
+
+- Adding a new computer filling all fields up
+- Adding a new computer filling only required fields up
+- Adding a new computer without filling the required fields up
+- Filtering the computers by brand
+- Deleting a computer by brand
+
+I believe it should be enough to catch some bugs and cover the basic flows regarding this application.
 
 ## Prerequisites
 

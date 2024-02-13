@@ -1,5 +1,5 @@
 
-# Cypress Project with TypeScript
+# Hostfully - Cypress Project with TypeScript
 
 This project demonstrates how to set up and run end-to-end tests using Cypress with TypeScript support.
 
@@ -22,7 +22,7 @@ Before getting started, ensure you have Node.js installed on your machine. This 
    First, clone this repository to your local machine using Git.
 
    ```bash
-   git clone https://your-repository-url.com/cypress-typescript-project.git
+   git clone https://github.com/joaolucasoh/hostfully-cypress-typrescript.git
    cd cypress-typescript-project
    ```
 

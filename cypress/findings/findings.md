@@ -9,12 +9,15 @@ This file contains some bugs or improvements after my exploratory tests.
 
 1 - The computer gives the creation message, but the filter does not find the added model.
 [video](<filter doesnt find computer .mov>)
+- Expected: It should return the model created.
 
 2- When deleting a model from the list, after the deletion confirmation message, we still finding the item in the search list
 [video](<delete but we can find the computer.mov>)
+- Expected: It shouldn't be visible anymore.
 
 3 - When scrolling through the list of companies on the computer model add screen, the list leaks off the screen, and the layout crashes.
 [video](<list overlap.mov>)
+- Expected: It should be improved. I guess it's regarding responsiveness stuff.
 
 ### Improvements
 

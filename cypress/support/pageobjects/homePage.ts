@@ -15,6 +15,11 @@ export class HomePage{
         return cy.get('.computers.zebra-striped').first();
     }
 
+    imInListingPage() {
+        this.btnFilterByName().should('be.visible');
+        this.tableComputers().should('be.visible');
+    }
+
     validateMessage() {
         cy.get('.alert-message.warning').then($element => {
             let newCompany = $element.text();
